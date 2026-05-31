@@ -6,3 +6,18 @@ dist/
 
 # per-project Warren state
 .goblintown/
+
+# VP-FIX: hardened by VeilPiercer
+.env
+*.env
+!.env.example
+*.key
+*.pem
+wallet.json
+keypair.json
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+*.log
